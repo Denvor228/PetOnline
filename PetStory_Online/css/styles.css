@@ -1,0 +1,639 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body{
+      width: 100%;
+  }
+
+  header{
+      height: 800px;
+      background-image: url(../img/Giant\ Panda.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .container {
+      width: 1160px;
+      margin: auto;
+  }
+
+  .menu-list {
+      display: flex;
+      justify-content: flex-start;
+      list-style-type: none;
+      width: 600px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 140%;
+      color: #FFFFFF;
+      width: 1160px;
+
+  }
+
+  .menu{
+      background-color: black;
+      height: 80px;
+      display: flex;
+      align-items: center;
+  }
+
+  .logo{
+      display: block;
+      background-image: url(../img/logo_footer.png);
+      width: 94px;
+      height: 52px;
+      margin-right: 62px;
+  }
+
+  .menu-box {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+
+  .menu-item {
+      margin-right: 60px;
+  }
+
+  .menu-item:last-child {
+      margin-right: 0px;
+  }
+
+  .head-wrapper {
+      width: 100%;
+  }
+
+  .head-title {
+      position: absolute;
+      width: 500.31px;
+      height: 400px;
+      left: calc(50% - 500.31px/2 + 330.15px);
+      top: 166px;
+    
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 106.496px;
+      line-height: 75%;
+      /* or 80px */
+    
+      text-align: center;
+      text-transform: uppercase;
+    
+      color: #FFFFFF;
+  }
+
+  .favourite {
+      color: #FFEE2E;
+  }
+
+  .head-button {
+      position: absolute;
+      width: 298px;
+      height: 54px;
+      left: calc(50% - 298px/2 + 332px);
+      top: 626px;
+
+      /* orang */
+
+      background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+      border-radius: 25px;
+      border: none;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+  }
+
+  .circle{
+      position: absolute;
+      width: 465px;
+      height: 465px;
+      left: calc(50% - 465px/2 + 239.5px);
+      top: 92px;
+      border-radius: 50%;
+    
+      /* orang */
+    
+      background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  }
+
+  .how-it-works-section {
+      width: 1160px;
+      padding-top: 123px;
+      position: relative;
+      padding-bottom: 100px;
+  }
+
+  .bamboo-cap{
+      width: 609px;
+      height: 403px;
+      left: 0px;
+      top: 0px;
+    
+      background: url(../img/bamboo-cap.png);
+      backdrop-filter: blur(4px);
+
+  }
+
+  .how-it-works-section-top {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .backstage {
+      max-width: 465px;
+      padding-bottom: 180px;
+  }
+
+  .header-backstage {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 120%;
+      margin-bottom: 42px;
+      /* or 58px */
+    
+    
+      /* black_blue */
+    
+      color: #333B41;
+    
+  }
+
+  .text-backstage {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 130%;
+      /* or 21px */
+    
+    
+      color: #333B41;
+  }
+
+  .text-1{
+      margin-bottom: 42px;
+  }
+
+  .header-how-it-works {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 120%;
+      /* identical to box height, or 29px */
+      color: #333B41;
+      margin-bottom: 42px;
+  }
+
+  .flowers {
+      position:absolute;
+      background-image: url(../img/flower_foto1.png);
+      background-repeat: no-repeat;
+      width: 192px;
+      height: 605px;
+      left: 100%;
+      top: 50px;
+
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .pet-info {
+      width: 366px;
+      height: 426px;
+  }
+
+  .panda {
+      background-image: url(../img/panda.png);
+      height: 365px;
+  }
+
+  .eagle {
+      background-image: url(../img/eagle.png);
+      height: 365px;
+  }
+
+  .gorilas {
+      background-image: url(../img/gorilas.png);
+      height: 365px;
+  }
+
+  .sloth {
+      background-image: url(../img/sloth.png);
+      height: 365px;
+  }
+
+  .cheetahs {
+      background-image: url(../img/cheetahs.png);
+      height: 365px;
+  }
+
+  .penguins {
+      background-image: url(../img/penguins.png);
+      height: 365px;
+  }
+
+  .animals-images {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      list-style: none;
+  }
+
+  .pet-info {
+    border: 1px solid #FE9013;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .pet-info-box {
+      padding-top: 12px;
+      padding-left: 15px;
+      position: relative;
+  }
+
+  .eat {
+      position: absolute;
+      width: 48px;
+      height: 38px;
+      
+  }
+
+  .pet-eat-herbivores {
+      background-image: url(../img/banana-bamboo_icon.png);
+      background-repeat: no-repeat;
+      bottom: 0px;
+      left: 300px;
+  }
+
+  .pet-eat-carnivorous {
+      background-image: url(../img/meet-fish_icon.png);
+      background-repeat: no-repeat;
+      bottom: 0px;
+      left: 300px;
+}
+
+.pet-info:nth-child(-n+3){
+      margin-bottom: 20px;
+}
+
+.animals-images {
+      margin-bottom: 80px;
+}
+
+.choose {
+      display: block;
+      margin: auto;
+      width: 298px;
+      height: 54px;
+      left: calc(50% - 298px/2);
+      top: 2455px;
+
+/* or3 */
+
+      background: #FE9013;
+      border-radius: 25px;
+      border: none;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+}
+
+.button-animals {
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      border: none;
+      position: absolute;
+
+      /* orang */
+
+      background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.left {
+      background-image: url(../img/arrow_elips_2.png);
+      top: 1120px;
+      right: 1190px;
+}
+
+.right {
+      background-image: url(../img/arrow_elips_1.png);
+      top: 1120px;
+      left: 1190px;
+}
+
+.palm {
+      position: absolute;
+      background-image: url(../img/palm_foto.png);
+      background-repeat: no-repeat;
+      width: 280px;
+      height: 361px;
+      top: 1455px;
+      right: 100%;
+}
+
+.flower {
+    position: absolute;
+      background-image: url(../img/strelitzia\ 1.png);
+      background-repeat: no-repeat;
+      width: 368px;
+      height: 275px;
+      top: 1542px;
+      left: 100%;
+}
+
+.pick-and-feed-section {
+      background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+      opacity: 0.9;
+      padding-top: 70px;
+      padding-bottom: 100px;
+}
+
+.border-pink {
+      background: rgba(253, 253, 255, 0.52);
+/* Note: backdrop-filter has minimal browser support */
+
+      border-radius: 20px;
+      padding-left: 100px;
+      padding-right: 60px;
+      padding-bottom: 59px;
+      padding-top: 50px;
+}
+
+.header2-pick-and-feed {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 120%;
+     /* identical to box height, or 58px */
+
+      text-align: center;
+
+      color: #FE9013;
+      margin-bottom: 30px;
+}
+
+.header3-pick-and-feed {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 120%;
+      /* identical to box height, or 29px */
+
+
+      color: #333B41;
+      margin-bottom: 40px;
+}
+
+.header4-pick-and-feed {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 130%;
+      /* identical to box height, or 21px */
+    
+    
+      color: #333B41;
+      margin-bottom: 10px;
+}
+
+.text-pick-and-feed {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 130%;
+      /* or 21px */
+
+
+      color: #333B41;
+      margin-bottom: 60px;
+}
+
+.header3-how-it-works {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 130%;
+      text-align: center;
+      /* identical to box height, or 47px */
+
+
+      color: #333B41;
+      margin-bottom: 40px;
+}
+
+.instruction-images {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 765px;
+    margin: auto;
+}
+
+.instruction-image {
+      margin-bottom: 30px;
+      width: 168px;
+      height: 168px;
+
+      background: #FFFFFF;
+      border-radius: 5px;
+      border: 1px solid #FE9013;
+      
+}
+
+.instruction-image-list {
+    width: 168px;
+    margin-bottom: 60px;
+}
+
+.feed {
+      background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+      border-radius: 25px;
+      width: 298px;
+      height: 54px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 140%;
+      border: none;
+      display: block;
+      margin: auto;
+      /* or 22px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+}
+
+.card {
+      background-image: url(../img/pay.png);
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+.zoo {
+      background-image: url(../img/zoo.png);
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+.animal {
+      background-image: url(../img/monkey.png);
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+.instruction-text {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+    
+    
+      color: #333B41;
+}
+
+.testimonials {
+    padding-top: 140px;
+    padding-bottom: 180px;
+}
+
+.comments {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      list-style: none;
+      margin-bottom: 22px;
+} 
+
+.scroll {
+      width: 599px;
+      height: 7px;
+}
+
+.comment {
+      position: relative;
+      padding-top: 13px;
+      padding-left: 11px;
+      padding-right: 15px;
+      width: 268px;
+      height: 391px;
+      background: #F1F3F2;
+      border-radius: 20px;
+}
+
+.comment::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    border-radius: 20px;
+    z-index: -1;
+
+}
+
+.comment-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll {
+      position: relative;
+      width: 599px;
+      height: 7px;
+      border-radius: 5px;
+      margin: auto;
+      background-color: #FFFFFF;
+}
+
+.scroll::before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      bottom: -2px;
+      left: -2px;
+      right: -2px;
+      background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+      border-radius: 5px;
+      z-index: -1;
+
+  }
+
+.scroller {
+      width: 115.19px;
+      height: 6px;
+
+/* or3 */
+
+      background: #FE9013;
+      border-radius: 5px;
+}
+
+.footer {
+    background-color:#000000;
+}
+
+.leave-feedback {
+      margin-top: 32px;
+      width: 298px;
+      height: 54px;
+      border: none;
+
+      /* orang */
+
+      background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+      border-radius: 5px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+}
+
+
+
